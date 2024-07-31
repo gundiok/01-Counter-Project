@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.count {
+  margin-top: 25rem;
+}
+
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font: inherit;
+}
+
+.increase-btn {
+  background-color: rgb(6, 135, 6);
+
+  color: wheat;
+}
+
+.decrease-btn {
+  background-color: rgb(176, 31, 12);
+
+  color: wheat;
+}
+
+.reset-btn {
+  background-color: rgb(224, 185, 10);
+
+  color: rgb(37, 33, 25);
+}
